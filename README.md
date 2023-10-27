@@ -1,9 +1,11 @@
 # Lab5
 DnDeezNuts
 
-**PROBLEM:**\n
-requests.exceptions.MissingSchema: Invalid URL '/api/monsters/ankheg': No scheme supplied. Perhaps you meant https:///api/monsters/ankheg?\n
+**PROBLEM:**
+requests.exceptions.MissingSchema: Invalid URL '/api/monsters/ankheg': No scheme supplied. Perhaps you meant https:///api/monsters/ankheg?
+
 **SOLVED:**
+
 I was using relative URLS when I should have been including the whole URL with the base. I added a variable to store the base part of the URL.
 
 **PROBLEM:**
