@@ -1,5 +1,6 @@
 # Lab5
-DnDeezNuts
+
+Easier viewed thru Repl.it: https://replit.com/@watsonvs/API-Inhalation
 
 **PROBLEM:**
 requests.exceptions.MissingSchema: Invalid URL '/api/monsters/ankheg': No scheme supplied. Perhaps you meant https:///api/monsters/ankheg?
